@@ -5,16 +5,16 @@ import java.util.Scanner;
 public class diagonal1 {
 
 	public static void main(String[] args) {
-		Scanner get = new Scanner(System.in);
-		System.out.print("please enter num:");
-		int n = get.nextInt();
+		Scanner scan = new Scanner(System.in);
+		System.out.print("please enter num of rows:");
+		int r = scan.nextInt();
 		System.out.print("please enter the sympol:");
-		String a = get.next();
-		String s = "   ";
-		for (int i = 0; i < n; i++) {
+		String  sympol= scan.next();
+		String space = "  " ;
+		for (int i = 0; i < r; i++) {
 
-			System.out.println(a);
-			a =s+a;
+			System.out.println(sympol);
+			sympol =space+sympol;
 		
 
 	}
